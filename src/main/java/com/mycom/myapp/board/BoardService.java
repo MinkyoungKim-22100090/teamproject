@@ -1,3 +1,5 @@
+package com.mycom.myapp.board;
+
 import com.mycom.myapp.board.BoardVO;
 
 import java.util.List;

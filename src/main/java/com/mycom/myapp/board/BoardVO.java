@@ -2,13 +2,22 @@ package com.mycom.myapp.board;
 
 import java.util.Date;
 
-public class BoardVo {
+public class BoardVO {
     private int seq;
+    private String category;
     private String title;
     private String writer;
     private String content;
     private Date regdate;
     private int cnt;
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
     public int getSeq() {
         return seq;

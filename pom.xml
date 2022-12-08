@@ -79,6 +79,6 @@
           <release>1.8</release>
         </configuration>
       </plugin>
-    </plugins>
+    </plugins>ur
   </build>
 </project>

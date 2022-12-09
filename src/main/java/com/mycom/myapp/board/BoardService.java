@@ -1,7 +1,5 @@
 package com.mycom.myapp.board;
 
-import com.mycom.myapp.board.BoardVO;
-
 import java.util.List;
 
 public interface BoardService {
@@ -10,5 +8,4 @@ public interface BoardService {
     public int updateBoard(BoardVO vo);
     public BoardVO getBoard(int seq);
     public List<BoardVO> getBoardList();
-
 }

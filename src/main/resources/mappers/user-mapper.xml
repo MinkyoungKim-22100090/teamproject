@@ -4,6 +4,6 @@
 <mapper namespace="User">
     <select id="getUser" resultType="user">
         select userid,username from Member
-            where userid=#{userid} and password=password=#{password}
+            where userid=#{userid} and password=#{password}
     </select>
 </mapper>

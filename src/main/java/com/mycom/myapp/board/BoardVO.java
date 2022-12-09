@@ -1,5 +1,7 @@
 package com.mycom.myapp.board;
 
+
+//하나의 데이터를 담기위한 객체
 import java.util.Date;
 
 public class BoardVO {
@@ -10,14 +12,6 @@ public class BoardVO {
     private String content;
     private Date regdate;
     private int cnt;
-
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
 
     public int getSeq() {
         return seq;
@@ -54,5 +48,13 @@ public class BoardVO {
     }
     public void setCnt(int cnt) {
         this.cnt = cnt;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 }

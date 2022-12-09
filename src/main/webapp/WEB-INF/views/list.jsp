@@ -17,10 +17,31 @@
       if(a) location.href='deleteok/'+id;
     }
   </script>
-
+  <style>
+    #list {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    #list td, #list th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align:center;
+    }
+    #list tr:nth-child(even){background-color: #f2f2f2;}
+    #list tr:hover {background-color: #ffe0e0;}
+    #list th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: #fc4c99;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-<h1>자유게시판</h1>
+<h1>게시판</h1>
+<p><a href="login/login">로그아웃 하기</a></p>
 <table id="list" width="90%">
   <tr>
     <th>ID</th>

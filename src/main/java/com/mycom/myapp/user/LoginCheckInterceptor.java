@@ -1,14 +1,17 @@
-package com.mycom.myapp.uti;
+package com.mycom.myapp.user;
+
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class LoginCheckInterceptor implements HandlerInterceptor{
-
+public class LoginCheckInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+//        return HandlerInterceptor.super.preHandle(request, response, handler);
+
         HttpSession session = request.getSession();
         Object obj = session.getAttribute("login");
         if (obj == null) {
@@ -19,7 +22,7 @@ public class LoginCheckInterceptor implements HandlerInterceptor{
     }
 
     @Override
-    public void postHandle(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         HandlerInterceptor.super.postHandle(request, response, handler, modelAndView);
     }
 }

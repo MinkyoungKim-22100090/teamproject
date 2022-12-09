@@ -1,8 +1,9 @@
 package com.mycom.myapp.board;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-public class UserServiceImpl {
+public class UserServiceImpl{
     @Autowired
     UserDAO userDAO;
     public UserVO getUser(UserVO vo) {

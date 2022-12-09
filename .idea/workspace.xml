@@ -10,18 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c00713-fd1b-4397-bec3-74ad9be299ab" name="Changes" comment="modified">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/uti/LoginCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/uti/LoginCheckInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/uti/LoginCheckInterceptor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,24 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9259fbdffd158976715849815836277d&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "spring",
+    "spring.configuration.checksum": "9259fbdffd158976715849815836277d"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/resources/img" />
@@ -309,7 +306,8 @@
       <workItem from="1670174998916" duration="131000" />
       <workItem from="1670427806253" duration="21000" />
       <workItem from="1670428063867" duration="1051000" />
-      <workItem from="1670514661376" duration="6415000" />
+      <workItem from="1670514661376" duration="6449000" />
+      <workItem from="1670569010268" duration="4554000" />
     </task>
     <task id="LOCAL-00001" summary="modified">
       <created>1669996703086</created>
@@ -339,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670519746040</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modified">
+      <created>1670522381122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670522381122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

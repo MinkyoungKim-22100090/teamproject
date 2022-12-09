@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.ui.Model;
 
+import javax.servlet.http.HttpSession;
+
 @Controller
 @RequestMapping(value="/login")
 public class LoginController {
@@ -18,7 +20,7 @@ public class LoginController {
     }
 
     @RequestMapping(value="/loginOk",method=RequestMethod.POST)
-    public String loginCheck(HttpSession session,UserVO vo){
+    public String loginCheck(HttpSession session, UserVO vo){
         String returnURL = "";
         if ( session.getAttribute("login") != null ){
             session.removeAttribute("login");

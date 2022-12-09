@@ -12,7 +12,6 @@ import java.sql.SQLException;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"file:src/main/webapp/WEB-INF/applicationContext.xml"})
 public class DataSourceTest {
-
     @Autowired
     private DataSource ds;
 
